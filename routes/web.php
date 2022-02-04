@@ -14,22 +14,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view ('home');
+    return view ('home', [
+        "title" => "Home"
+    ]);
 });
 
-// Route::get('/about', function () {
-//     return view ('about');
-// });
 
 Route::get('/gallery', function () {
-    return view ('Gallery');
+    return view ('Gallery', [
+        "title" => "Gallery"
+    ]);
 });
 
 Route::get('/about', function(){
     return view('about', [
+        "title" => "About",
         "nama" => " Fiolina Tafani ",
         "email" => "tafanifiolina@gmail.com",
         "gambar" => "telkom.png"
 
     ]);
 });
+
+Route::resource('/contacts', ContactController::class);
+use App\Http\Controllers\ContactController;
