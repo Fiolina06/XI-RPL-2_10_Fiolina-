@@ -15,7 +15,7 @@
     </div>
     <div class="form- floating mb-3">
       <textarea class="form-control" placeholder=" Pesan" id="floatingTextarea2" style="height: 100 px"></textarea>
-      <label for="floatingTextarea2"> Pesan </label>
+      <label for="floatingTextarea2">  </label>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
