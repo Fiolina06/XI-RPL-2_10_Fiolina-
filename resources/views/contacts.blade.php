@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="title-top mb-5">
-         <h2 class="fw-bold">Contact Us</h2>
+         <h2 class="fw-bold">Saran dan kritik</h2>
     </div>
 <form method="post" action="{{route('contacts.store')}}">
   {{csrf_field()}}

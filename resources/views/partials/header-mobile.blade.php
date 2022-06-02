@@ -18,7 +18,7 @@
             <ul class="navbar-mobile__list list-unstyled">
                 <li class="has-sub">
                     <a class="js-arrow" href="#">
-                        <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        <i class="fas fa-tachometer-alt"></i>Data Saran</a>
                     <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                         <li>
                             <a href="index.html">Dashboard 1</a>

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container">
-      <a class="navbar-brand" href="#">Fiolina</a>
+      <a class="navbar-brand" href="#">MovieTime.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -8,8 +8,8 @@
         <div class="navbar-nav">
           <a class="nav-link {{ ( $title === 'Home') ? 'active': ''}}" aria-current="page" href="/">Home</a>
           <a class="nav-link {{ ( $title === 'About') ? 'active': ''}}" href="/about">about</a>
-          <a class="nav-link {{ ( $title === 'Gallery') ? 'active': ''}}" href="/gallery">gallery</a>
-          <a class="nav-link {{ ( $title === 'Contacts') ? 'active': ''}}" href="{{ route ('contacts.create')}}">Contact Us</a>
+          <a class="nav-link {{ ( $title === 'Gallery') ? 'active': ''}}" href="/gallery">Rekomendasi</a>
+          <a class="nav-link {{ ( $title === 'Contacts') ? 'active': ''}}" href="{{ route ('contacts.create')}}">Saran</a>
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
         </div>
         <ul class="navbar-nav ms-auto">

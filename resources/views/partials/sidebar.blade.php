@@ -10,7 +10,7 @@
             <ul class="list-unstyled navbar__list">
                 <li class="active has-sub">
                     <a class="js-arrow" href="#">
-                        <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        <i class="fas fa-tachometer-alt"></i>Data saran</a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                         <li>
                             <a href="index.html">Dashboard 1</a>
@@ -28,24 +28,9 @@
                 </li>
                 <li>
                     <a href="{{ route ('contacts.index')}}">
-                        <i class="fas fa-chart-bar"></i>Data Contacts Us</a>
+                        <i class="fas fa-chart-bar"></i>Data Saran</a>
                 </li>
-                <li>
-                    <a href="table.html">
-                        <i class="fas fa-table"></i>Tables</a>
-                </li>
-                <li>
-                    <a href="form.html">
-                        <i class="far fa-check-square"></i>Forms</a>
-                </li>
-                <li>
-                    <a href="calendar.html">
-                        <i class="fas fa-calendar-alt"></i>Calendar</a>
-                </li>
-                <li>
-                    <a href="map.html">
-                        <i class="fas fa-map-marker-alt"></i>Maps</a>
-                </li>
+                
                 <li class="has-sub">
                     <a class="js-arrow" href="#">
                         <i class="fas fa-copy"></i>Pages</a>
